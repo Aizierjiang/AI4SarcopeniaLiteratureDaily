@@ -1,8 +1,8 @@
 title: AI4Sarcopenia Literature Daily
 description: Dynamic Literature Review - AI-Driven Body Shape Analysis for Sarcopenia | Auto-updated daily via GitHub Actions
 show_downloads: true
-# baseurl: "/lr4sarcopenia" # For deployment on aizierjiang.github.io/lr4sarcopenia
-baseurl: "" # For local test or root deployment
+baseurl: "/AI4SarcopeniaLiteratureDaily" # For deployment on aizierjiang.github.io/AI4SarcopeniaLiteratureDaily
+# baseurl: "" # For local test or root deployment
 
 # Logo configuration
 logo: "/assets/images/logo.svg"
@@ -11,12 +11,12 @@ favicon_ico: "/assets/images/favicon.svg"
 # SEO and metadata
 author: Aizierjiang Aierislan
 github_username: aizierjiang
-repository: aizierjiang/lr4sarcopenia
+repository: aizierjiang/AI4SarcopeniaLiteratureDaily
 
 # GitHub links
 github:
-  zip_url: https://github.com/aizierjiang/lr4sarcopenia
-  repository_url: https://github.com/aizierjiang/lr4sarcopenia
+  zip_url: https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily
+  repository_url: https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily
 
 # Theme configuration - using Just the Docs theme for better navigation
 remote_theme: just-the-docs/just-the-docs@v0.8.2
@@ -40,7 +40,7 @@ nav_enabled: true
 # Enable table of contents in sidebar for section navigation
 aux_links:
   "GitHub Repository":
-    - "//github.com/aizierjiang/lr4sarcopenia"
+    - "//github.com/aizierjiang/AI4SarcopeniaLiteratureDaily"
 
 # Heading anchors for navigation
 heading_anchors: true
@@ -50,7 +50,7 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Footer content
-footer_content: "Copyright &copy; 2025 Aizierjiang Aierislan | Institute for Innovation in Health Computing, GWU | Updated daily via GitHub Actions. <a href=\"https://github.com/aizierjiang/lr4sarcopenia\">View on GitHub</a>"
+footer_content: "Copyright &copy; 2025 Aizierjiang Aierislan | Institute for Innovation in Health Computing, GWU | Updated daily via GitHub Actions. <a href=\"https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily\">View on GitHub</a>"
 
 # Enable collections for better organization
 collections:
