@@ -1,0 +1,76 @@
+title: AI4Sarcopenia Literature Daily
+description: Dynamic Literature Review - AI-Driven Body Shape Analysis for Sarcopenia | Auto-updated daily via GitHub Actions
+show_downloads: true
+# baseurl: "/lr4sarcopenia" # For deployment on aizierjiang.github.io/lr4sarcopenia
+baseurl: "" # For local test or root deployment
+
+# Logo configuration
+logo: "/assets/images/logo.svg"
+favicon_ico: "/assets/images/favicon.svg"
+
+# SEO and metadata
+author: Aizierjiang Aierislan
+github_username: aizierjiang
+repository: aizierjiang/lr4sarcopenia
+
+# GitHub links
+github:
+  zip_url: https://github.com/aizierjiang/lr4sarcopenia
+  repository_url: https://github.com/aizierjiang/lr4sarcopenia
+
+# Theme configuration - using Just the Docs theme for better navigation
+remote_theme: just-the-docs/just-the-docs@v0.8.2
+
+# Just the Docs theme settings
+color_scheme: light  # Default to light mode for better readability
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: true
+
+# Navigation structure
+nav_sort: case_insensitive
+nav_enabled: true
+
+# Enable table of contents in sidebar for section navigation
+aux_links:
+  "GitHub Repository":
+    - "//github.com/aizierjiang/lr4sarcopenia"
+
+# Heading anchors for navigation
+heading_anchors: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer content
+footer_content: "Copyright &copy; 2025 Aizierjiang Aierislan | Institute for Innovation in Health Computing, GWU | Updated daily via GitHub Actions. <a href=\"https://github.com/aizierjiang/lr4sarcopenia\">View on GitHub</a>"
+
+# Enable collections for better organization
+collections:
+  papers:
+    output: true
+
+# Mermaid diagrams support
+mermaid:
+  version: "10.6.1"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  # - "*.json" # share when only it's needed

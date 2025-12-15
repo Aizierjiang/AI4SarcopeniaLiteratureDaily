@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="AI4Sarcopenia Literature Daily - Mobile Edition">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🏥</text></svg>">
+  <title>AI4Sarcopenia Mobile</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f6fa; color: #27262b; line-height: 1.5; padding-bottom: 60px; }
+    
+    /* Header */
+    header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; padding: 1rem; text-align: center; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+    header h1 { font-size: 1.25rem; font-weight: 700; margin-bottom: 0.25rem; }
+    header p { font-size: 0.85rem; opacity: 0.9; }
+    
+    /* Search */
+    .search-box { padding: 0.75rem; background: #fff; border-bottom: 1px solid #e9ecef; position: sticky; top: 60px; z-index: 99; box-shadow: 0 4px 12px rgba(0,0,0,0.04); }
+    .search-box input { width: 100%; padding: 0.65rem 1rem; border: 2px solid #d8ddf0; border-radius: 10px; font-size: 1rem; }
+    .search-box input:focus { outline: none; border-color: #667eea; box-shadow: 0 0 0 3px rgba(102,126,234,0.15); }
+    
+    /* Categories */
+    .categories { display: flex; overflow-x: auto; gap: 0.5rem; padding: 0.75rem; background: #fff; border-bottom: 1px solid #e9ecef; -webkit-overflow-scrolling: touch; scroll-behavior: smooth; }
+    .categories::-webkit-scrollbar { display: none; }
+    .cat-btn { padding: 0.5rem 1rem; background: #f8f9fa; border: 2px solid #e9ecef; border-radius: 20px; font-size: 0.85rem; white-space: nowrap; cursor: pointer; transition: all 0.2s ease; font-weight: 500; color: #495057; }
+    .cat-btn.active { background: linear-gradient(135deg, #667eea, #764ba2); color: #fff; border: 2px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.5); font-weight: 700; transform: translateY(-2px); }
+    
+    /* Papers */
+    .papers { padding: 0.75rem; }
+    .paper-card { background: #fff; border-radius: 12px; padding: 1rem; margin-bottom: 0.75rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .paper-date { font-size: 0.75rem; color: #667eea; font-weight: 600; margin-bottom: 0.25rem; }
+    .paper-title { font-size: 1rem; font-weight: 600; color: #1a1a1a; margin-bottom: 0.5rem; line-height: 1.4; }
+    .paper-authors { font-size: 0.85rem; color: #6c757d; margin-bottom: 0.5rem; }
+    .paper-links { display: flex; gap: 0.5rem; }
+    .paper-links a { padding: 0.4rem 0.8rem; background: linear-gradient(135deg, #667eea, #764ba2); color: #fff; text-decoration: none; border-radius: 6px; font-size: 0.85rem; font-weight: 600; }
+    
+    /* Loading */
+    .loading { text-align: center; padding: 2rem; color: #667eea; }
+    .loading::after { content: '...'; animation: dots 1.5s infinite; }
+    @keyframes dots { 0%, 20% { content: '.'; } 40% { content: '..'; } 60%, 100% { content: '...'; } }
+    
+    /* Empty state */
+    .empty { text-align: center; padding: 3rem 1rem; color: #6c757d; }
+    
+    /* Footer */
+    footer { position: fixed; bottom: 0; left: 0; right: 0; background: #fff; border-top: 1px solid #e9ecef; padding: 0.75rem; text-align: center; font-size: 0.8rem; color: #6c757d; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🏥 AI4Sarcopenia</h1>
+    <p id="last-updated">Loading...</p>
+  </header>
+  
+  <div class="search-box">
+    <input type="text" id="search" placeholder="Search titles or authors" autocomplete="off">
+  </div>
+  
+  <div class="categories" id="categories"></div>
+  
+  <div class="papers" id="papers">
+    <div class="loading">Loading papers</div>
+  </div>
+  
+  <footer>
+    <span>© 2025 Aizierjiang | Updated via GitHub Actions</span>
+  </footer>
+
+  <script>
+    let allPapers = [];
+    let currentCategory = 'all';
+    
+    // Parse markdown table row to extract paper details
+    function parseMarkdownRow(rowStr, paperId) {
+      // Format: |**date**|**title**|authors|[arxiv](url)|code_url|
+      const parts = rowStr.split('|').filter(p => p.trim());
+      if (parts.length < 3) return null;
+      
+      const date = parts[0].replace(/\*\*/g, '').trim();
+      const title = parts[1].replace(/\*\*/g, '').trim();
+      const authors = parts[2].trim();
+      
+      // Extract arxiv URL
+      const arxivMatch = parts[3].match(/\[([^\]]+)\]\(([^)]+)\)/);
+      const pdfUrl = arxivMatch ? arxivMatch[2] : '';
+      
+      // Extract code URL if exists
+      let codeUrl = '';
+      if (parts.length > 4 && parts[4].trim()) {
+        const codeMatch = parts[4].match(/\[([^\]]+)\]\(([^)]+)\)/);
+        codeUrl = codeMatch ? codeMatch[2] : '';
+      }
+      
+      return { paperId, publish_date: date, title, authors, pdf_url: pdfUrl, code_url: codeUrl };
+    }
+    
+    // Fetch data from parent directory JSON
+    async function loadData() {
+      try {
+        // const response = await fetch('sarcopenia-arxiv-daily.json'); // local testing
+        const response = await fetch('sarcopenia-arxiv-daily-web.json');
+        const data = await response.json();
+        
+        // Parse data
+        allPapers = [];
+        const categories = new Set(['all']);
+        
+        for (const [category, papersObj] of Object.entries(data)) {
+          categories.add(category);
+          
+          // papersObj is an object with paper IDs as keys
+          for (const [paperId, markdownRow] of Object.entries(papersObj)) {
+            const paper = parseMarkdownRow(markdownRow, paperId);
+            if (paper) {
+              allPapers.push({ ...paper, category });
+            }
+          }
+        }
+        
+        // Find the most recent paper date
+        const latestDate = allPapers.length > 0 
+          ? allPapers.reduce((latest, p) => p.publish_date > latest ? p.publish_date : latest, allPapers[0].publish_date)
+          : 'Unknown';
+        
+        // Update last updated text after data is loaded
+        document.getElementById('last-updated').textContent = `Latest: ${latestDate}`;
+        
+        // Render categories
+        const catContainer = document.getElementById('categories');
+        catContainer.innerHTML = '';
+        categories.forEach(cat => {
+          const btn = document.createElement('button');
+          btn.className = 'cat-btn' + (cat === 'all' ? ' active' : '');
+          btn.textContent = cat === 'all' ? 'All' : cat.replace(/_/g, ' ');
+          btn.dataset.category = cat; // Store original category name
+          btn.onclick = () => filterCategory(cat);
+          catContainer.appendChild(btn);
+        });
+        
+        renderPapers();
+      } catch (error) {
+        document.getElementById('papers').innerHTML = '<div class="empty">Failed to load papers. Please check connection.</div>';
+        console.error('Load error:', error);
+      }
+    }
+    
+    function filterCategory(cat) {
+      currentCategory = cat;
+      console.log('Filtering by category:', cat);
+      
+      const buttons = document.querySelectorAll('.cat-btn');
+      buttons.forEach(btn => {
+        btn.classList.remove('active');
+        
+        // Use data-category attribute for accurate matching
+        if (btn.dataset.category === cat) {
+          btn.classList.add('active');
+          console.log('Activated button:', btn.textContent);
+          // Scroll active button into view
+          btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        }
+      });
+      
+      renderPapers();
+    }
+    
+    function renderPapers(searchTerm = '') {
+      const container = document.getElementById('papers');
+      const filtered = allPapers.filter(p => {
+        const matchCategory = currentCategory === 'all' || p.category === currentCategory;
+        const matchSearch = !searchTerm || 
+          p.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          p.authors.toLowerCase().includes(searchTerm.toLowerCase());
+        return matchCategory && matchSearch;
+      });
+      
+      if (filtered.length === 0) {
+        container.innerHTML = '<div class="empty">No papers found</div>';
+        return;
+      }
+      
+      container.innerHTML = filtered.slice(0, 50).map(p => `
+        <div class="paper-card">
+          <div class="paper-date">${p.publish_date}</div>
+          <div class="paper-title">${p.title}</div>
+          <div class="paper-authors">${p.authors}</div>
+          <div class="paper-links">
+            <a href="${p.pdf_url}" target="_blank">PDF</a>
+            ${p.code_url && p.code_url.trim() ? `<a href="${p.code_url}" target="_blank">Code</a>` : ''}
+          </div>
+        </div>
+      `).join('');
+    }
+    
+    // Search
+    document.getElementById('search').addEventListener('input', (e) => {
+      renderPapers(e.target.value);
+    });
+    
+    // Load on start
+    loadData();
+  </script>
+</body>
+</html>

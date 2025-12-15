@@ -1,0 +1,286 @@
+/* =====================================================/* Custom CSS for AI for Sarcopenia Literature Daily */
+
+   AI for Sarcopenia Literature Daily - Custom Styles/* ============================================
+
+   Clean, Professional, Mobile-Friendly Design   HCI PRINCIPLES & GUI-FRIENDLY DESIGN
+
+   ===================================================== */   - Visual Hierarchy: Clear, organized content structure
+
+   - Consistency: Uniform spacing, colors, and typography
+
+/* ============================================   - Feedback: Hover states, transitions, visual cues
+
+   SITE LOGO & TITLE - NO OVERFLOW   - Accessibility: High contrast, readable fonts, responsive
+
+   ============================================ */   - Efficiency: Quick navigation, TOC, smooth scrolling
+
+   ============================================ */
+
+.site-header {
+
+  border-bottom: 1px solid #eeebee;/* ============================================
+
+  padding: 0.75rem 1rem !important;   SITE HEADER & SIDEBAR FIXES
+
+  overflow: hidden !important;   ============================================ */
+
+}
+
+/* Fix site title overflow in sidebar */
+
+.site-title {.site-title {
+
+  font-size: clamp(0.9rem, 2vw, 1.125rem) !important;  font-size: clamp(0.85rem, 1.5vw, 1.125rem) !important;
+
+  line-height: 1.3 !important;  line-height: 1.3 !important;
+
+  padding: 0.5rem 0.75rem !important;  padding: 0.5rem 0.75rem !important;
+
+  word-wrap: break-word !important;  word-wrap: break-word !important;
+
+  overflow-wrap: break-word !important;  overflow-wrap: break-word !important;
+
+  max-width: 100% !important;  hyphens: auto !important;
+
+  display: flex !important;  max-width: 100% !important;
+
+  align-items: center !important;  display: block !important;
+
+  gap: 0.5rem;}
+
+  color: #27262b !important;
+
+  font-weight: 600 !important;/* Ensure sidebar doesn't overflow */
+
+}.side-bar {
+
+  width: 248px !important;
+
+.site-logo {  min-width: 248px !important;
+
+  max-width: 100% !important;  overflow-x: hidden !important;
+
+  overflow: hidden !important;  overflow-y: auto !important;
+
+}}
+
+
+
+/* Add logo emoji before title */.site-header {
+
+.site-title::before {  padding: 0.75rem 1rem !important;
+
+  content: "🏥";  overflow: hidden !important;
+
+  font-size: 1.5em;}
+
+  margin-right: 0.25rem;
+
+}/* Logo/title container */
+
+.site-logo {
+
+/* ============================================  max-width: 100% !important;
+
+   SIDEBAR - CLEAN & ORGANIZED  overflow: hidden !important;
+
+   ============================================ */}
+
+
+
+.side-bar {/* ============================================
+
+  width: 264px !important;   Width & Layout Improvements - FORCE WIDE LAYOUT
+
+  min-width: 264px !important;   ============================================ */
+
+  background-color: #f5f6fa !important;
+
+  border-right: 1px solid #eeebee;/* Override Just the Docs theme's narrow width restrictions */
+
+  overflow-x: hidden !important;.site-footer,
+
+  overflow-y: auto !important;.main,
+/* =====================================================
+   AI for Sarcopenia Literature Daily - Custom Styles (Clean)
+   Purpose: Formal, decent, non-overlapping layout with sidebar TOC
+   Theme: Just the Docs
+   Colors: #667eea (primary), #764ba2 (secondary), #27262b (text)
+===================================================== */
+
+:root {
+  --sidebar-width: 264px;
+}
+
+/* Basic fixes */
+html { scroll-behavior: smooth; }
+body { line-height: 1.65; color: #27262b; }
+
+/* ---------------------------------------------
+   Sidebar: width + no overflow
+----------------------------------------------*/
+.side-bar {
+  width: var(--sidebar-width) !important;
+  min-width: var(--sidebar-width) !important;
+  border-right: 1px solid #eeebee;
+  background-color: #f5f6fa;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 100;
+}
+
+.site-header { border-bottom: 1px solid #eeebee; padding: 0.75rem 1rem; overflow: hidden; }
+.site-title {
+  display: block;
+  font-weight: 600;
+  color: #27262b;
+  font-size: clamp(0.9rem, 2vw, 1.125rem);
+  line-height: 1.3;
+  padding: 0.5rem 0.75rem;
+  word-wrap: break-word; overflow-wrap: break-word; hyphens: auto;
+}
+.site-title::before { content: "🏥 "; margin-right: 0.25rem; }
+
+/* ---------------------------------------------
+   Main: never overlap with sidebar
+----------------------------------------------*/
+@media (min-width: 1064px) {
+  .main { margin-left: var(--sidebar-width) !important; max-width: none !important; width: auto !important; }
+  .main-content, .page-content { max-width: 1400px; margin: 0 auto; padding: 2rem 3rem; }
+}
+@media (max-width: 1063.98px) {
+  .main { margin-left: 0 !important; }
+  .side-bar { position: fixed; top: 0; left: 0; bottom: 0; transform: translateX(-100%); transition: transform 0.3s ease; }
+  .side-bar.show { transform: translateX(0); }
+  #mobile-menu-toggle { position: fixed; top: 1rem; left: 1rem; z-index: 1001; }
+}
+
+/* ---------------------------------------------
+   Dashboard header
+----------------------------------------------*/
+.paper-dashboard { position: relative; z-index: 1; }
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(102,126,234,0.25);
+  color: #fff;
+  position: relative;
+}
+.dashboard-title { margin: 0; font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 800; }
+.dashboard-title::before { content: "🏥 "; font-size: 0.9em; }
+.last-updated { margin-top: .75rem; opacity: .95; font-weight: 500; }
+
+.dashboard-actions {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.github-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.45rem 0.75rem;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+}
+
+.github-button:hover {
+  transform: translateY(-1px);
+  background: rgba(255,255,255,0.18);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.github-button svg { display: block; }
+
+/* ---------------------------------------------
+   Quick stats
+----------------------------------------------*/
+.quick-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0 2rem; }
+.stat-card { background: #fff; border-radius: 12px; padding: 1.25rem 1rem; box-shadow: 0 2px 12px rgba(0,0,0,.08); transition: transform .2s ease, box-shadow .2s ease; }
+.stat-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(102,126,234,.2); }
+.stat-icon { font-size: 2rem; display: block; margin-bottom: .5rem; }
+.stat-label { font-size: .85rem; color: #5c5962; text-transform: uppercase; letter-spacing: .05em; }
+.stat-value { font-size: 1.5rem; font-weight: 800; color: #27262b; }
+
+/* ---------------------------------------------
+   Section headers
+----------------------------------------------*/
+h1 { font-size: clamp(1.75rem, 3vw, 2.5rem); font-weight: 800; color: #212529; margin-bottom: 1rem; }
+h2 { font-size: clamp(1.5rem, 2.5vw, 2rem); font-weight: 700; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 3px solid #667eea; }
+h3 { font-size: clamp(1.25rem, 2vw, 1.5rem); font-weight: 600; color: #495057; margin: 1.5rem 0 .75rem; }
+
+/* ---------------------------------------------
+   In-page TOC block (at top)
+----------------------------------------------*/
+.text-delta { font-size: 1.1rem; font-weight: 600; margin-top: 0; }
+#markdown-toc { background: #f8f9fa; border-left: 4px solid #667eea; padding: 1rem 1.25rem; margin: 1rem 0 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,.05); }
+#markdown-toc li { list-style: none; margin: .5rem 0; position: relative; padding-left: 1rem; }
+#markdown-toc li::before { content: "▸"; position: absolute; left: 0; color: #667eea; font-weight: 700; }
+#markdown-toc a { color: #5c5962; text-decoration: none; font-weight: 500; }
+#markdown-toc a:hover { color: #667eea; text-decoration: underline; }
+
+/* ---------------------------------------------
+   Sidebar TOC (On this page)
+----------------------------------------------*/
+.sidebar-toc { margin: 1rem; padding: .75rem; background: #ffffff; border: 1px solid #ececf1; border-radius: 8px; }
+.sidebar-toc-title { font-size: .85rem; font-weight: 700; color: #7253ed; text-transform: uppercase; letter-spacing: .05em; margin-bottom: .5rem; }
+.sidebar-toc-list { list-style: none; margin: 0; padding: 0; }
+.sidebar-toc-list li { margin: .25rem 0; }
+.sidebar-toc-list li.h3 { padding-left: .75rem; }
+.sidebar-toc-list a { display: block; padding: .25rem .5rem; border-radius: 6px; color: #5c5962; text-decoration: none; font-size: .92rem; }
+.sidebar-toc-list a:hover { background: rgba(102,126,234,.1); color: #667eea; }
+
+/* ---------------------------------------------
+   Tables
+----------------------------------------------*/
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,.08); margin: 1.5rem 0; font-size: .95rem; }
+thead { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; }
+thead th { padding: 1rem; text-align: left; text-transform: uppercase; letter-spacing: .5px; font-size: .9rem; }
+tbody tr { border-bottom: 1px solid #e9ecef; transition: background-color .2s ease, transform .2s ease; }
+tbody tr:hover { background: rgba(102,126,234,.06); transform: translateX(2px); }
+tbody td { padding: 1rem; vertical-align: top; color: #212529; }
+tbody td:nth-child(2) { font-weight: 600; color: #1a1a1a; }
+tbody td:nth-child(5) a { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff !important; padding: .4rem .7rem; border-radius: 6px; font-weight: 600; text-decoration: none !important; display: inline-block; }
+tbody td:nth-child(5) a:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(102,126,234,.3); }
+
+/* Table responsive cards */
+@media (max-width: 640px) {
+  table, thead, tbody, th, td, tr { display: block; }
+  thead tr { position: absolute; top: -9999px; left: -9999px; }
+  tr { margin-bottom: 1rem; border: 1px solid #eeebee; border-radius: 8px; padding: .5rem; }
+  td { border: none; position: relative; padding-left: 45%; }
+  td::before { content: attr(data-label); position: absolute; left: .5rem; width: 40%; white-space: nowrap; font-weight: 700; color: #667eea; }
+}
+
+/* ---------------------------------------------
+   Search, links, misc
+----------------------------------------------*/
+.search-input { border-radius: 8px !important; border: 2px solid #e9ecef !important; transition: all .2s ease !important; }
+.search-input:focus { border-color: #667eea !important; box-shadow: 0 0 0 3px rgba(102,126,234,.1) !important; }
+
+a { color: #667eea; text-decoration: none; transition: color .2s ease; }
+a:hover { color: #764ba2; text-decoration: underline; }
+.external-link-icon { margin-left: .2em; font-size: .8em; opacity: .6; }
+
+/* Back to top button */
+#back-to-top { position: fixed; bottom: 5rem; right: 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; width: 48px; height: 48px; border-radius: 50%; border: 0; display: none; align-items: center; justify-content: center; font-size: 1.5rem; box-shadow: 0 4px 12px rgba(102,126,234,.3); transition: all .3s ease; z-index: 999; }
+#back-to-top.show { display: flex; }
+#back-to-top:hover { transform: translateY(-3px); box-shadow: 0 6px 16px rgba(102,126,234,.4); }
+
+/* Footer */
+.site-footer { border-top: 1px solid #eeebee; background: #f5f6fa; padding: 2rem 1rem; text-align: center; color: #7253ed; font-size: .875rem; }
+

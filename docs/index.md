@@ -1,0 +1,189 @@
+---
+layout: papers
+title: AI4Sarcopenia Literature Daily
+nav_order: 1
+last_updated: 2025.12.15
+---
+
+## Updated on 2025.12.15
+> Usage instructions: [here](./README.md)
+
+<div style="margin:0.85rem 0 0.5rem;padding:0.9rem 1rem;background:#fffbea;border:1px solid #f0c36d;border-radius:10px;font-size:1rem;font-weight:700;color:#4a3200;">
+    ⚠️ If the page looks blank, press <strong>F5</strong> to refresh the data.
+</div>
+
+<div style="margin:0.5rem 0 1rem;padding:0.75rem 0.95rem;background:#f4f6fb;border:1px solid #d9deed;border-radius:10px;">
+    <label for="page-search" style="display:block;font-weight:700;margin-bottom:0.35rem;color:#1f2a44;">Quick filter (titles & authors)</label>
+    <input id="page-search" type="text" placeholder="Type to search across all sections" style="width:100%;padding:0.65rem 0.75rem;border:2px solid #d9deed;border-radius:8px;font-size:0.95rem;">
+    <div id="page-search-status" style="margin-top:0.35rem;font-size:0.9rem;color:#4a4f63;">Showing all papers.</div>
+</div>
+
+## Sarcopenia AI Detection
+
+| Publish Date | Title | Authors | PDF | Code |
+|:---------|:-----------------------|:---------|:------|:------|
+|**2025-08-26**|**MedVQA-TREE: A Multimodal Reasoning and Retrieval Framework for Sarcopenia Prediction**|Pardis Moradbeiki et.al.|[2508.19319](http://arxiv.org/abs/2508.19319)||
+|**2025-08-24**|**Deep Learning-Assisted Detection of Sarcopenia in Cross-Sectional Computed Tomography Imaging**|Manish Bhardwaj et.al.|[2508.17275](http://arxiv.org/abs/2508.17275)||
+|**2025-09-24**|**CANDLE: A Cross-Modal Agentic Knowledge Distillation Framework for Interpretable Sarcopenia Diagnosis**|Yuqi Jin et.al.|[2507.21179](http://arxiv.org/abs/2507.21179)||
+|**2025-02-13**|**Unsupervised Anomaly Detection on Implicit Shape representations for Sarcopenia Detection**|Louise Piecuch et.al.|[2502.09088](http://arxiv.org/abs/2502.09088)||
+|**2023-12-10**|**Three-dimensional numerical schemes for the segmentation of the psoas muscle in X-ray computed tomography images**|Giulio Paolucci et.al.|[2312.05887](http://arxiv.org/abs/2312.05887)||
+|**2021-08-13**|**Deep Reinforcement Learning for L3 Slice Localization in Sarcopenia Assessment**|Othmane Laousy et.al.|[2107.12800](http://arxiv.org/abs/2107.12800)||
+|**2020-06-10**|**Fully-automated deep learning slice-based muscle estimation from CT images for sarcopenia assessment**|Fahdi Kanavati et.al.|[2006.06432](http://arxiv.org/abs/2006.06432)||
+
+## CT Body Composition
+
+| Publish Date | Title | Authors | PDF | Code |
+|:---------|:-----------------------|:---------|:------|:------|
+|**2025-03-19**|**Reliable Radiologic Skeletal Muscle Area Assessment -- A Biomarker for Cancer Cachexia Diagnosis**|Sabeen Ahmed et.al.|[2503.16556](http://arxiv.org/abs/2503.16556)||
+|**2025-11-16**|**Federated Continual 3D Segmentation With Single-round Communication**|Can Peng et.al.|[2503.15414](http://arxiv.org/abs/2503.15414)||
+|**2025-03-10**|**AI-Driven Automated Tool for Abdominal CT Body Composition Analysis in Gastrointestinal Cancer Management**|Xinyu Nan et.al.|[2503.07248](http://arxiv.org/abs/2503.07248)||
+|**2025-11-21**|**Automated Muscle and Fat Segmentation in Computed Tomography for Comprehensive Body Composition Analysis**|Yaqian Chen et.al.|[2502.09779](http://arxiv.org/abs/2502.09779)||
+|**2024-09-11**|**Automated Body Composition Analysis Using DAFS Express on 2D MRI Slices at L3 Vertebral Level**|Varun Akella et.al.|[2409.06942](http://arxiv.org/abs/2409.06942)||
+|**2023-05-18**|**DeepEdit: Deep Editable Learning for Interactive Segmentation of 3D Medical Images**|Andres Diaz-Pinto et.al.|[2305.10655](http://arxiv.org/abs/2305.10655)||
+|**2020-02-10**|**Validation and Optimization of Multi-Organ Segmentation on Clinical Imaging Archives**|Yuchen Xu et.al.|[2002.04102](http://arxiv.org/abs/2002.04102)||
+|**2019-12-09**|**Automated Muscle Segmentation from Clinical CT using Bayesian U-Net for Personalized Musculoskeletal Modeling**|Yuta Hiasa et.al.|[1907.08915](http://arxiv.org/abs/1907.08915)||
+|**2019-08-21**|**Prior-aware Neural Network for Partially-Supervised Multi-Organ Segmentation**|Yuyin Zhou et.al.|[1904.06346](http://arxiv.org/abs/1904.06346)||
+|**2018-08-11**|**Fully-Automated Analysis of Body Composition from CT in Cancer Patients Using Convolutional Neural Networks**|Christopher P. Bridge et.al.|[1808.03844](http://arxiv.org/abs/1808.03844)||
+
+## MRI Body Composition
+
+| Publish Date | Title | Authors | PDF | Code |
+|:---------|:-----------------------|:---------|:------|:------|
+|**2021-08-26**|**Segmentation of Shoulder Muscle MRI Using a New Region and Edge based Deep Auto-Encoder**|Saddam Hussain Khan et.al.|[2108.11720](http://arxiv.org/abs/2108.11720)||
+|**2020-04-27**|**Healthy versus pathological learning transferability in shoulder muscle MRI segmentation using deep convolutional encoder-decoders**|Pierre-Henri Conze et.al.|[1901.01620](http://arxiv.org/abs/1901.01620)||
+
+## DXA & BIA Analysis
+
+| Publish Date | Title | Authors | PDF | Code |
+|:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-27**|**Predicting Wrist Osteoporosis from excised human finger bones using spatially offset Raman spectroscopy, A Cadaveric Study**|Mohammad Hosseini et.al.|[2510.23876](http://arxiv.org/abs/2510.23876)||
+|**2025-10-06**|**Riesz fractional gradient functionals defined on partitions: nonlocal-to-local variational limits**|Stefano Almi et.al.|[2510.04881](http://arxiv.org/abs/2510.04881)||
+|**2025-09-29**|**Survey of AI-Powered Approaches for Osteoporosis Diagnosis in Medical Imaging**|Abdul Rahman et.al.|[2510.00061](http://arxiv.org/abs/2510.00061)||
+|**2025-07-26**|**A general perspective on CBO methods with stochastic rate of information**|Stefano Almi et.al.|[2507.20029](http://arxiv.org/abs/2507.20029)||
+|**2025-07-24**|**Gradient regularity for double-phase orthotropic functionals**|Stefano Almi et.al.|[2507.18474](http://arxiv.org/abs/2507.18474)||
+|**2025-06-25**|**Opportunistic Osteoporosis Diagnosis via Texture-Preserving Self-Supervision, Mixture of Experts and Multi-Task Integration**|Jiaxing Huang et.al.|[2506.20282](http://arxiv.org/abs/2506.20282)||
+|**2025-06-18**|**The superposition principle for the continuity equation with singular flux**|Stefano Almi et.al.|[2506.15333](http://arxiv.org/abs/2506.15333)||
+|**2025-06-08**|**Predicting Anthropometric Body Composition Variables Using 3D Optical Imaging and Machine Learning**|Gyaneshwar Agrahari et.al.|[2506.14815](http://arxiv.org/abs/2506.14815)||
+|**2025-06-11**|**Balanced quasistatic evolutions of critical points in metric spaces**|Stefano Almi et.al.|[2506.09812](http://arxiv.org/abs/2506.09812)||
+|**2025-04-21**|**ICGM-FRAX: Iterative Cross Graph Matching for Hip Fracture Risk Assessment using Dual-energy X-ray Absorptiometry Images**|Chen Zhao et.al.|[2504.15384](http://arxiv.org/abs/2504.15384)||
+|**2025-10-26**|**Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning**|Jiyuan Shi et.al.|[2504.14305](http://arxiv.org/abs/2504.14305)||
+|**2025-04-01**|**Mean field first order optimality condition under low regularity of controls**|Stefano Almi et.al.|[2504.00878](http://arxiv.org/abs/2504.00878)||
+|**2025-04-28**|**VerteNet -- A Multi-Context Hybrid CNN Transformer for Accurate Vertebral Landmark Localization in Lateral Spine DXA Images**|Zaid Ilyas et.al.|[2502.02097](http://arxiv.org/abs/2502.02097)||
+|**2024-12-06**|**Osteoporosis Prediction from Hand X-ray Images Using Segmentation-for-Classification and Self-Supervised Learning**|Ung Hwang et.al.|[2412.05345](http://arxiv.org/abs/2412.05345)||
+|**2024-11-24**|**Microfluidic Bioelectrical Impedance Drug Delivery Device for Patients with Acute Exacerbations of Chronic Obstructive Pulmonary Disease**|Evan Carroll et.al.|[2411.15934](http://arxiv.org/abs/2411.15934)||
+
+## Ultrasound Muscle Assessment
+
+| Publish Date | Title | Authors | PDF | Code |
+|:---------|:-----------------------|:---------|:------|:------|
+|**2023-06-07**|**Automatic retrieval of corresponding US views in longitudinal examinations**|Hamideh Kerdegari et.al.|[2306.04739](http://arxiv.org/abs/2306.04739)||
+
+## Deep Learning Segmentation
+
+| Publish Date | Title | Authors | PDF | Code |
+|:---------|:-----------------------|:---------|:------|:------|
+|**2024-10-21**|**Deep Radiomics Detection of Clinically Significant Prostate Cancer on Multicenter MRI: Initial Comparison to PI-RADS Assessment**|G. A. Nketiah et.al.|[2410.16238](http://arxiv.org/abs/2410.16238)||
+|**2024-02-26**|**Non-invasive Liver Fibrosis Screening on CT Images using Radiomics**|Jay J. Yoo et.al.|[2211.14396](http://arxiv.org/abs/2211.14396)||
+|**2025-02-28**|**Open-radiomics: A Collection of Standardized Datasets and a Technical Protocol for Reproducible Radiomics Machine Learning Pipelines**|Khashayar Namdar et.al.|[2207.14776](http://arxiv.org/abs/2207.14776)||
+|**2020-03-08**|**Reduction of Surgical Risk Through the Evaluation of Medical Imaging Diagnostics**|Marco A. V. M. Grinet et.al.|[2003.08748](http://arxiv.org/abs/2003.08748)||
+|**2019-09-26**|**Non-Invasive Fuhrman Grading of Clear Cell Renal Cell Carcinoma Using Computed Tomography Radiomics Features and Machine Learning**|Mostafa Nazari et.al.|[1909.12286](http://arxiv.org/abs/1909.12286)||
+
+## 3D Body Shape Analysis
+
+| Publish Date | Title | Authors | PDF | Code |
+|:---------|:-----------------------|:---------|:------|:------|
+|**2025-11-05**|**MvBody: Multi-View-Based Hybrid Transformer Using Optical 3D Body Scan for Explainable Cesarean Section Prediction**|Ruting Cheng et.al.|[2511.03212](http://arxiv.org/abs/2511.03212)||
+|**2025-10-12**|**Mesh-Gait: A Unified Framework for Gait Recognition Through Multi-Modal Representation Learning from 2D Silhouettes**|Zhao-Yang Wang et.al.|[2510.10406](http://arxiv.org/abs/2510.10406)||
+|**2025-05-22**|**A Shape-Aware Total Body Photography System for In-focus Surface Coverage Optimization**|Wei-Lun Huang et.al.|[2505.16228](http://arxiv.org/abs/2505.16228)||
+|**2025-12-02**|**Maternal and Fetal Health Status Assessment by Using Machine Learning on Optical 3D Body Scans**|Ruting Cheng et.al.|[2504.05627](http://arxiv.org/abs/2504.05627)||
+|**2025-01-10**|**Pose-independent 3D Anthropometry from Sparse Data**|David Bojanić et.al.|[2501.06014](http://arxiv.org/abs/2501.06014)||
+|**2024-11-12**|**CameraHMR: Aligning People with Perspective**|Priyanka Patel et.al.|[2411.08128](http://arxiv.org/abs/2411.08128)||
+|**2024-04-16**|**A Simple Strategy for Body Estimation from Partial-View Images**|Yafei Mao et.al.|[2404.09301](http://arxiv.org/abs/2404.09301)||
+|**2024-03-13**|**STMPL: Human Soft-Tissue Simulation**|Anton Agafonov et.al.|[2403.08344](http://arxiv.org/abs/2403.08344)||
+|**2024-01-10**|**Machine Learning Applications in Spine Biomechanics**|Farshid Ghezelbash et.al.|[2401.06174](http://arxiv.org/abs/2401.06174)||
+|**2024-01-29**|**Survey of 3D Human Body Pose and Shape Estimation Methods for Contemporary Dance Applications**|Darshan Venkatrayappa et.al.|[2401.02383](http://arxiv.org/abs/2401.02383)||
+|**2023-12-11**|**LiDAR-based Person Re-identification**|Wenxuan Guo et.al.|[2312.03033](http://arxiv.org/abs/2312.03033)||
+|**2023-10-27**|**FLSH -- Friendly Library for the Simulation of Humans**|Pablo Ramón et.al.|[2310.18206](http://arxiv.org/abs/2310.18206)||
+|**2023-08-01**|**Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction**|Yufei Zhang et.al.|[2308.00799](http://arxiv.org/abs/2308.00799)||
+|**2023-04-14**|**Shape of You: Precise 3D shape estimations for diverse body types**|Rohan Sarkar et.al.|[2304.07389](http://arxiv.org/abs/2304.07389)||
+|**2023-09-27**|**One-shot Implicit Animatable Avatars with Model-based Priors**|Yangyi Huang et.al.|[2212.02469](http://arxiv.org/abs/2212.02469)||
+
+## Explainable AI Healthcare
+
+| Publish Date | Title | Authors | PDF | Code |
+|:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-17**|**BiomedXPro: Prompt Optimization for Explainable Diagnosis with Biomedical Vision Language Models**|Kaushitha Silva et.al.|[2510.15866](http://arxiv.org/abs/2510.15866)||
+|**2025-10-04**|**CoPA: Hierarchical Concept Prompting and Aggregating Network for Explainable Diagnosis**|Yiheng Dong et.al.|[2510.03767](http://arxiv.org/abs/2510.03767)||
+|**2025-10-18**|**Agentic System with Modal Logic for Autonomous Diagnostics**|Antonin Sulc et.al.|[2509.11943](http://arxiv.org/abs/2509.11943)||
+|**2025-09-10**|**An End-to-End Deep Learning Framework for Arsenicosis Diagnosis Using Mobile-Captured Skin Images**|Asif Newaz et.al.|[2509.08780](http://arxiv.org/abs/2509.08780)||
+|**2025-04-10**|**Over-Relying on Reliance: Towards Realistic Evaluations of AI-Based Clinical Decision Support**|Venkatesh Sivaraman et.al.|[2504.07423](http://arxiv.org/abs/2504.07423)||
+|**2025-04-01**|**GKAN: Explainable Diagnosis of Alzheimer's Disease Using Graph Neural Network with Kolmogorov-Arnold Networks**|Tianqi Ding et.al.|[2504.00946](http://arxiv.org/abs/2504.00946)||
+|**2025-01-07**|**Explainable Diagnosis Prediction through Neuro-Symbolic Integration**|Qiuhao Lu et.al.|[2410.01855](http://arxiv.org/abs/2410.01855)||
+|**2023-07-05**|**A ChatGPT Aided Explainable Framework for Zero-Shot Medical Image Diagnosis**|Jiaxiang Liu et.al.|[2307.01981](http://arxiv.org/abs/2307.01981)||
+|**2023-09-27**|**Adaptive Gated Graph Convolutional Network for Explainable Diagnosis of Alzheimer's Disease using EEG Data**|Dominik Klepl et.al.|[2304.05874](http://arxiv.org/abs/2304.05874)||
+|**2023-02-26**|**K-Diag: Knowledge-enhanced Disease Diagnosis in Radiographic Imaging**|Chaoyi Wu et.al.|[2302.11557](http://arxiv.org/abs/2302.11557)||
+|**2022-06-15**|**A Novel Implementation of Machine Learning for the Efficient, Explainable Diagnosis of COVID-19 from Chest CT**|Justin Liu et.al.|[2207.07117](http://arxiv.org/abs/2207.07117)||
+|**2022-04-25**|**Doctor XAvIer: Explainable Diagnosis on Physician-Patient Dialogues and XAI Evaluation**|Hillary Ngai et.al.|[2204.10178](http://arxiv.org/abs/2204.10178)||
+|**2021-10-15**|**Tree-based local explanations of machine learning model predictions, AraucanaXAI**|Enea Parimbelli et.al.|[2110.08272](http://arxiv.org/abs/2110.08272)||
+|**2021-01-26**|**Uncertainty aware and explainable diagnosis of retinal disease**|Amitojdeep Singh et.al.|[2101.12041](http://arxiv.org/abs/2101.12041)||
+|**2020-08-03**|**Multi-Task Driven Explainable Diagnosis of COVID-19 using Chest X-ray Images**|Aakarsh Malhotra et.al.|[2008.03205](http://arxiv.org/abs/2008.03205)||
+
+## Aging & Muscle Health
+
+| Publish Date | Title | Authors | PDF | Code |
+|:---------|:-----------------------|:---------|:------|:------|
+|**2021-10-04**|**Enhancing Voluntary Motion with Modular, Backdrivable, Powered Hip and Knee Orthoses**|Christopher Nesler et.al.|[2110.01562](http://arxiv.org/abs/2110.01562)||
+|**2020-09-01**|**Survival of the densest accounts for the expansion of mitochondrial mutations in ageing**|Ferdinando Insalata et.al.|[2009.00403](http://arxiv.org/abs/2009.00403)||
+
+## Cancer & Cachexia
+
+| Publish Date | Title | Authors | PDF | Code |
+|:---------|:-----------------------|:---------|:------|:------|
+|**2025-06-20**|**Improving Surgical Risk Prediction Through Integrating Automated Body Composition Analysis: a Retrospective Trial on Colectomy Surgery**|Hanxue Gu et.al.|[2506.11996](http://arxiv.org/abs/2506.11996)||
+|**2025-05-19**|**Integrating computational detection and experimental validation for rapid GFRAL-specific antibody discovery**|Maria Francesca Abbate et.al.|[2506.01995](http://arxiv.org/abs/2506.01995)||
+|**2025-03-19**|**Reliable Radiologic Skeletal Muscle Area Assessment -- A Biomarker for Cancer Cachexia Diagnosis**|Sabeen Ahmed et.al.|[2503.16556](http://arxiv.org/abs/2503.16556)||
+|**2025-03-09**|**Multimodal AI-driven Biomarker for Early Detection of Cancer Cachexia**|Sabeen Ahmed et.al.|[2503.06797](http://arxiv.org/abs/2503.06797)||
+|**2022-05-18**|**A Scalable Workflow to Build Machine Learning Classifiers with Clinician-in-the-Loop to Identify Patients in Specific Diseases**|Jingqing Zhang et.al.|[2205.08891](http://arxiv.org/abs/2205.08891)||
+|**2020-01-20**|**Dietary Restriction of Amino Acids for Cancer Therapy**|Jian-Sheng Kang et.al.|[2001.06979](http://arxiv.org/abs/2001.06979)||
+|**2007-05-31**|**On Biology as an Emergent Science**|H. Pierre Noyes et.al.|[0705.4678](http://arxiv.org/abs/0705.4678)||
+
+[contributors-shield]: https://img.shields.io/github/contributors/aizierjiang/lr4sarcopenia.svg?style=for-the-badge
+[contributors-url]: https://github.com/aizierjiang/lr4sarcopenia/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/aizierjiang/lr4sarcopenia.svg?style=for-the-badge
+[forks-url]: https://github.com/aizierjiang/lr4sarcopenia/network/members
+[stars-shield]: https://img.shields.io/github/stars/aizierjiang/lr4sarcopenia.svg?style=for-the-badge
+[stars-url]: https://github.com/aizierjiang/lr4sarcopenia/stargazers
+[issues-shield]: https://img.shields.io/github/issues/aizierjiang/lr4sarcopenia.svg?style=for-the-badge
+[issues-url]: https://github.com/aizierjiang/lr4sarcopenia/issues
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const input = document.getElementById('page-search');
+        const status = document.getElementById('page-search-status');
+        if (!input || !status) return;
+
+        // Collect all table rows once
+        const rows = Array.from(document.querySelectorAll('table tbody tr'));
+        const sections = rows.map(row => ({
+            row,
+            text: row.innerText.toLowerCase(),
+        }));
+
+        function applyFilter(term) {
+            const q = term.trim().toLowerCase();
+            let visible = 0;
+
+            sections.forEach(({ row, text }) => {
+                const match = !q || text.includes(q);
+                row.style.display = match ? '' : 'none';
+                if (match) visible += 1;
+            });
+
+            status.textContent = q
+                ? `Filtered: ${visible} paper${visible === 1 ? '' : 's'} match "${term}"`
+                : 'Showing all papers.';
+        }
+
+        input.addEventListener('input', (e) => applyFilter(e.target.value));
+    });
+</script>

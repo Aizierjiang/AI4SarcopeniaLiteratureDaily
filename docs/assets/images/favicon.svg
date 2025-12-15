@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="favGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="url(#favGradient)"/>
+  
+  <!-- Medical cross -->
+  <g transform="translate(16, 16)">
+    <rect x="-2.5" y="-9" width="5" height="18" fill="white" rx="1"/>
+    <rect x="-9" y="-2.5" width="18" height="5" fill="white" rx="1"/>
+  </g>
+  
+  <!-- Small pulse line -->
+  <path d="M 8,20 L 10,20 L 11,16 L 12,22 L 13,16 L 14,20 L 24,20" 
+        stroke="rgba(255,255,255,0.7)" stroke-width="1.5" fill="none" 
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
