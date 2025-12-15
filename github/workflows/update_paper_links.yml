@@ -1,0 +1,67 @@
+# AI4Sarcopenia Literature Daily - Update Paper Links
+# Part of: "Literature Review of AI-Driven Body Shape Analysis for Sarcopenia"
+# Authors: Aizierjiang Aierislan
+# Institute for Innovation in Health Computing, The George Washington University
+
+name: Run Update Sarcopenia Paper Links
+
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  schedule:
+    - cron:  "0 9 * * 1"  # Run At 09:00 on Monday (Weekly Update)
+    # - cron:  "0 9 * * *"  # Run daily at 09:00 UTC (Daily Update)
+  # Triggers the workflow on push or pull request events but only for the main branch
+#   push:
+#     branches:
+#     - main
+
+env:
+
+  GITHUB_USER_NAME: aizierjiang
+  GITHUB_USER_EMAIL: mysoft@111.com
+  
+  
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    name: update
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    
+    permissions:
+      # Grant the action write permission to the repository contents
+      contents: write
+    
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Set up Python Env
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          #architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install arxiv
+          pip install requests
+          pip install pyyaml
+          
+      - name: Run update paper links
+        run: |
+          python daily_arxiv.py --update_paper_links
+          
+      - name: Push updated paper links to docs
+        uses: github-actions-x/commit@v2.9
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Auto Update: AI4Sarcopenia Paper Links"
+          files: docs/sarcopenia-arxiv-daily.json docs/sarcopenia-arxiv-daily-web.json docs/index.md
+          rebase: 'true'
+          name: ${{ env.GITHUB_USER_NAME }}
+          email: ${{ env.GITHUB_USER_EMAIL }}
