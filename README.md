@@ -1,12 +1,12 @@
 # 🦴 AI4Sarcopenia Literature Daily
 
-[![Daily Update](https://github.com/aizierjiang/lr4sarcopenia/workflows/Run%20Sarcopenia%20Arxiv%20Papers%20Daily/badge.svg)](https://github.com/aizierjiang/lr4sarcopenia/actions)
-[![License](https://img.shields.io/github/license/aizierjiang/lr4sarcopenia)](LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/aizierjiang/lr4sarcopenia)](https://github.com/aizierjiang/lr4sarcopenia/commits/main)
+[![Daily Update](https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/workflows/Run%20Sarcopenia%20Arxiv%20Papers%20Daily/badge.svg)](https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/actions)
+[![License](https://img.shields.io/github/license/aizierjiang/AI4SarcopeniaLiteratureDaily)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/aizierjiang/AI4SarcopeniaLiteratureDaily)](https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/commits/main)
 
 > **A Dynamic Literature Review: Automatically tracking the latest research in AI-Driven Body Shape Analysis for Sarcopenia**
 
-📊 **12 Research Domains** | 🔄 **Daily Updates** | 🤖 **Fully Automated** | 🌐 **[Live Website](https://aizierjiang.github.io/lr4sarcopenia/)**
+📊 **12 Research Domains** | 🔄 **Daily Updates** | 🤖 **Fully Automated** | 🌐 **[Live Website](https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily/)**
 
 ---
 
@@ -103,8 +103,8 @@ Perfect for researchers, clinicians, and AI enthusiasts focused on:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/aizierjiang/lr4sarcopenia.git
-cd lr4sarcopenia
+git clone https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily.git
+cd AI4SarcopeniaLiteratureDaily
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -164,10 +164,10 @@ max_results: 15
 
 # Your GitHub info (for deployment)
 user_name: "aizierjiang"
-repo_name: "lr4sarcopenia"
+repo_name: "AI4SarcopeniaLiteratureDaily"
 
 # Base directory (usually /docs for GitHub Pages)
-base_url: "https://aizierjiang.github.io/lr4sarcopenia/"
+base_url: "https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily/"
 ```
 
 ### Adding Research Topics
@@ -261,7 +261,7 @@ user_name: "aizierjiang"  # Change this
 2. "Run Sarcopenia Arxiv Papers Daily"
 3. "Run workflow"
 
-Your site: `https://aizierjiang.github.io/lr4sarcopenia/`
+Your site: `https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily/`
 
 ---
 
@@ -472,7 +472,7 @@ We welcome contributions! Here's how:
 
 ### Reporting Issues
 
-Found a bug? [Open an issue](https://github.com/aizierjiang/lr4sarcopenia/issues) with:
+Found a bug? [Open an issue](https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/issues) with:
 - Description of the problem
 - Steps to reproduce
 - Expected vs actual behavior
@@ -480,7 +480,7 @@ Found a bug? [Open an issue](https://github.com/aizierjiang/lr4sarcopenia/issues
 
 ### Suggesting Features
 
-Have an idea? [Start a discussion](https://github.com/aizierjiang/lr4sarcopenia/discussions) about:
+Have an idea? [Start a discussion](https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/discussions) about:
 - New research domains
 - UI improvements
 - Additional features
@@ -503,8 +503,8 @@ Have an idea? [Start a discussion](https://github.com/aizierjiang/lr4sarcopenia/
 ## 📞 Support
 
 - 📖 **Documentation**: See files in this repo
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/aizierjiang/lr4sarcopenia/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/aizierjiang/lr4sarcopenia/discussions)
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/discussions)
 - 📧 **Email**: mysoft@111.com
 
 ---
@@ -527,8 +527,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- 🌐 **Live Website**: https://aizierjiang.github.io/lr4sarcopenia/
-- 📦 **GitHub Repo**: https://github.com/aizierjiang/lr4sarcopenia
+- 🌐 **Live Website**: https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily/
+- 📦 **GitHub Repo**: https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily
 - 📊 **JSON Data**: [sarcopenia-arxiv-daily.json](docs/sarcopenia-arxiv-daily.json)
 - 📘 **Detailed Usage**: [docs/README.md](docs/README.md)
 - 📄 **Academic Paper**: "Literature Review of AI-Driven Body Shape Analysis for Sarcopenia"
