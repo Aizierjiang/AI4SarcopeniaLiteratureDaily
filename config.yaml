@@ -1,0 +1,124 @@
+# AI-Driven Body Shape Analysis for Sarcopenia - Literature Review Tracker
+# Based on: "Literature Review of AI-Driven Body Shape Analysis for Sarcopenia"
+# Authors: Aizierjiang Aierislan
+# Institute for Innovation in Health Computing, The George Washington University
+# Website: https://aizierjiang.github.io/lr4sarcopenia
+#
+# This tracker automatically fetches latest papers related to AI-driven 
+# body composition analysis and sarcopenia detection from arXiv and other sources.
+# Publication date interval: January 2015 onwards (continuously updated)
+
+base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
+user_name: "aizierjiang"
+repo_name: "lr4sarcopenia"
+show_authors: True
+show_links: True
+show_badge: True
+max_results: 15
+
+publish_readme: False
+publish_gitpage: True
+
+# File paths for generated data
+json_readme_path: './docs/sarcopenia-arxiv-daily.json'
+json_gitpage_path: './docs/sarcopenia-arxiv-daily-web.json'
+
+md_readme_path: 'README.md'
+md_gitpage_path: './docs/index.md'
+
+# =============================================================================
+# KEYWORDS CONFIGURATION
+# Based on the systematic search strategy from Table 1 of the academic paper:
+#
+# Application Keywords (K_A): sarcopenia, sarcopenic, sarcopenia obesity
+# Technology Keywords (K_T): machine learning, deep learning, AI, computer vision, 
+#                            computer graphics, 3D body, morphometry, body shape
+# Purpose Keywords (K_P): diagnos*, detect*, assess*, predict*, treat*
+#
+# Boolean Query: Q = (K_A) AND (K_T) AND (K_P)
+# =============================================================================
+
+keywords:
+    # Primary Research Focus: Sarcopenia Detection & Diagnosis
+    "Sarcopenia AI Detection":
+        filters: ["sarcopenia detection", "sarcopenia diagnosis", 
+                  "sarcopenia prediction", "sarcopenia assessment",
+                  "sarcopenic obesity", "sarcopenia machine learning",
+                  "sarcopenia deep learning", "sarcopenia AI",
+                  "muscle wasting detection", "muscle loss prediction"]
+    
+    # Medical Imaging for Body Composition Analysis
+    "CT Body Composition":
+        filters: ["CT body composition", "CT muscle segmentation",
+                  "L3 vertebral level", "skeletal muscle index",
+                  "abdominal CT segmentation", "CT skeletal muscle",
+                  "opportunistic CT screening", "body composition CT",
+                  "automated muscle segmentation", "CT sarcopenia"]
+    
+    "MRI Body Composition":
+        filters: ["MRI body composition", "MRI muscle analysis",
+                  "MRI fat quantification", "Dixon imaging muscle",
+                  "MRI skeletal muscle", "muscle MRI segmentation",
+                  "MRI sarcopenia", "body composition MRI"]
+    
+    "DXA & BIA Analysis":
+        filters: ["DXA body composition", "dual-energy X-ray absorptiometry",
+                  "appendicular lean mass", "ALMI", "DXA muscle mass",
+                  "bioelectrical impedance", "BIA body composition",
+                  "DXA sarcopenia", "body composition DXA"]
+    
+    "Ultrasound Muscle Assessment":
+        filters: ["ultrasound muscle", "muscle ultrasound assessment",
+                  "ultrasound sarcopenia", "muscle thickness ultrasound",
+                  "rectus femoris ultrasound", "muscle echogenicity",
+                  "point-of-care ultrasound muscle"]
+    
+    # Deep Learning for Medical Image Segmentation
+    "Deep Learning Segmentation":
+        filters: ["U-Net medical segmentation", "CNN medical imaging",
+                  "deep learning body composition", "automated segmentation CT",
+                  "neural network muscle segmentation", "FCN medical imaging",
+                  "transfer learning medical imaging", "radiomics machine learning"]
+    
+    # 3D Body Shape Analysis (Emerging Area from Paper)
+    "3D Body Shape Analysis":
+        filters: ["3D body scanning", "3D body shape", "body surface scanning",
+                  "optical body scanner", "3D anthropometry", "body morphometry",
+                  "point cloud body", "3D body composition", "body mesh analysis",
+                  "computer graphics body", "3D body reconstruction"]
+    
+    # Machine Learning for Risk Prediction
+    "ML Risk Prediction":
+        filters: ["sarcopenia risk prediction", "machine learning frailty",
+                  "random forest sarcopenia", "XGBoost body composition",
+                  "SVM sarcopenia", "gradient boosting muscle",
+                  "feature selection sarcopenia", "clinical prediction sarcopenia"]
+    
+    # Wearable Sensors & Mobile Health
+    "Wearables & mHealth":
+        filters: ["wearable sarcopenia", "gait analysis sarcopenia",
+                  "accelerometer muscle", "smartphone sarcopenia",
+                  "mobile health muscle", "mHealth sarcopenia",
+                  "SARC-F screening", "physical performance assessment",
+                  "sit-to-stand test AI", "grip strength prediction"]
+    
+    # Explainable AI for Healthcare
+    "Explainable AI Healthcare":
+        filters: ["explainable AI medical", "XAI healthcare",
+                  "interpretable machine learning medical", "SHAP medical",
+                  "attention mechanism medical imaging", "explainable diagnosis",
+                  "clinical decision support AI", "trustworthy AI healthcare"]
+    
+    # Geriatric & Aging Research
+    "Aging & Muscle Health":
+        filters: ["aging muscle mass", "elderly sarcopenia", 
+                  "geriatric frailty", "age-related muscle loss",
+                  "muscle aging", "EWGSOP", "AWGS sarcopenia",
+                  "older adults muscle", "muscle function aging"]
+    
+    # Cancer Cachexia & Related Conditions
+    "Cancer & Cachexia":
+        filters: ["cancer cachexia", "oncology sarcopenia",
+                  "chemotherapy body composition", "cancer muscle wasting",
+                  "tumor cachexia", "cancer prognosis sarcopenia",
+                  "surgical sarcopenia", "preoperative body composition"]

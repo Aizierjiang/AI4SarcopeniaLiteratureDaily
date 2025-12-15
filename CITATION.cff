@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+type: software
+title: "Literature Review of AI-Driven Body Shape Analysis for Sarcopenia"
+authors:
+  - family-names: "Aiersilan"
+    given-names: "Aizierjiang"
+  - family-names: "Hahn"
+    given-names: "James"
+repository-code: "https://github.com/Aizierjiang/AI4SarcopeniaLiteratureDaily"
+url: "https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily"
+license: MIT
+date-released: 2025-12-14
+keywords:
+  - sarcopenia
+  - artificial intelligence
+  - body shape analysis
+  - literature review
+abstract: >
+  This repository contains the code and data processing scripts for the literature review on AI-driven body shape analysis for sarcopenia. It includes tools for processing citation data, extracting sources, generating markdown outputs, and creating visualizations of annual publication trends and citations.
+preferred-citation:
+  type: article
+  title: "Literature Review of AI-Driven Body Shape Analysis for Sarcopenia"
+  authors:
+    - family-names: "Aiersilan"
+      given-names: "Aizierjiang"
+    - family-names: "Hahn"
+      given-names: "James"
+  journal: "arXiv preprint"
+  year: 2025
+  url: "https://arxiv.org/abs/COMING_SOON"

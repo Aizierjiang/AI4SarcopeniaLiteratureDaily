@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Homepage / Main Literature Page -->
+  <url>
+    <loc>https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily/</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily/about.html</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- README Page -->
+  <url>
+    <loc>https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily/README.html</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Mobile README Page -->
+  <url>
+    <loc>https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily/README4Mobile.html</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Mobile Page -->
+  <url>
+    <loc>https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily/mobile.html</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Setup Page -->
+  <url>
+    <loc>https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily/setup.html</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

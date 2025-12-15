@@ -1,0 +1,10 @@
+# robots.txt for maximum search engine visibility
+# Allow all search engines to crawl everything
+
+User-agent: *
+Allow: /
+
+# Sitemap location (optional - update with your actual sitemap URL if you have one)
+Sitemap: https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily/sitemap.xml
+
+
