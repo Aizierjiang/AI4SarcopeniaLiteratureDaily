@@ -2,7 +2,7 @@
 # Based on: "Literature Review of AI-Driven Body Shape Analysis for Sarcopenia"
 # Authors: Aizierjiang Aierislan
 # Institute for Innovation in Health Computing, The George Washington University
-# Website: https://aizierjiang.github.io/lr4sarcopenia
+# Website: https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily
 #
 # This tracker automatically fetches latest papers related to AI-driven 
 # body composition analysis and sarcopenia detection from arXiv and other sources.
@@ -10,7 +10,7 @@
 
 base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
 user_name: "aizierjiang"
-repo_name: "lr4sarcopenia"
+repo_name: "AI4SarcopeniaLiteratureDaily"
 show_authors: True
 show_links: True
 show_badge: True

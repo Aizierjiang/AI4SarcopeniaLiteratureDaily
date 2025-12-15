@@ -77,7 +77,7 @@ Use a custom configuration file instead of the default `config.yaml`.
 # Basic Settings
 base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
 user_name: "aizierjiang"
-repo_name: "lr4sarcopenia"
+repo_name: "AI4SarcopeniaLiteratureDaily"
 max_results: 15  # Papers per topic
 
 # Output Options

@@ -12,14 +12,14 @@ permalink: /setup
 
 ### For Viewing Only
 
-Simply visit [lr4sarcopenia](https://aizierjiang.github.io/lr4sarcopenia/) to browse the latest papers!
+Simply visit [AI4SarcopeniaLiteratureDaily](https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily/) to browse the latest papers!
 
 ### For Local Development
 
 1. **Clone the repository**
    ```bash
-    git clone https://github.com/aizierjiang/lr4sarcopenia.git
-    cd lr4sarcopenia
+    git clone https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily.git
+    cd AI4SarcopeniaLiteratureDaily
    ```
 
 2. **Install dependencies**
@@ -190,11 +190,11 @@ python daily_arxiv.py
 
 ## 📚 Additional Resources
 
-- [Configuration Reference](https://github.com/aizierjiang/lr4sarcopenia/blob/main/docs/README.md)
+- [Configuration Reference](https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/blob/main/docs/README.md)
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [Jekyll Documentation](https://jekyllrb.com/docs/)
 - [Just the Docs Theme](https://just-the-docs.github.io/just-the-docs/)
 
 ---
 
-Need more help? [Open an issue](https://github.com/aizierjiang/lr4sarcopenia/issues) or [discuss](https://github.com/aizierjiang/lr4sarcopenia/discussions).
+Need more help? [Open an issue](https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/issues) or [discuss](https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/discussions).

@@ -8,7 +8,7 @@ Institute for Innovation in Health Computing, The George Washington University
 This script automatically fetches and organizes the latest research papers 
 in AI-driven body composition analysis and sarcopenia detection from arXiv.
 
-Website: https://aizierjiang.github.io/lr4sarcopenia
+Website: https://aizierjiang.github.io/AI4SarcopeniaLiteratureDaily
 """
 
 import os
@@ -489,21 +489,21 @@ def json_to_md(filename, md_filename,
         if show_badge:
             # Badge definitions for AI4Sarcopenia Literature Daily
             f.write((f"[contributors-shield]: https://img.shields.io/github/"
-                     f"contributors/aizierjiang/lr4sarcopenia.svg?style=for-the-badge\n"))
+                     f"contributors/aizierjiang/AI4SarcopeniaLiteratureDaily.svg?style=for-the-badge\n"))
             f.write((f"[contributors-url]: https://github.com/aizierjiang/"
-                     f"lr4sarcopenia/graphs/contributors\n"))
+                     f"AI4SarcopeniaLiteratureDaily/graphs/contributors\n"))
             f.write((f"[forks-shield]: https://img.shields.io/github/forks/aizierjiang/"
-                     f"lr4sarcopenia.svg?style=for-the-badge\n"))
+                     f"AI4SarcopeniaLiteratureDaily.svg?style=for-the-badge\n"))
             f.write((f"[forks-url]: https://github.com/aizierjiang/"
-                     f"lr4sarcopenia/network/members\n"))
+                     f"AI4SarcopeniaLiteratureDaily/network/members\n"))
             f.write((f"[stars-shield]: https://img.shields.io/github/stars/aizierjiang/"
-                     f"lr4sarcopenia.svg?style=for-the-badge\n"))
+                     f"AI4SarcopeniaLiteratureDaily.svg?style=for-the-badge\n"))
             f.write((f"[stars-url]: https://github.com/aizierjiang/"
-                     f"lr4sarcopenia/stargazers\n"))
+                     f"AI4SarcopeniaLiteratureDaily/stargazers\n"))
             f.write((f"[issues-shield]: https://img.shields.io/github/issues/aizierjiang/"
-                     f"lr4sarcopenia.svg?style=for-the-badge\n"))
+                     f"AI4SarcopeniaLiteratureDaily.svg?style=for-the-badge\n"))
             f.write((f"[issues-url]: https://github.com/aizierjiang/"
-                     f"lr4sarcopenia/issues\n\n"))
+                     f"AI4SarcopeniaLiteratureDaily/issues\n\n"))
 
         # Reattach the client-side filter script for the web page
         if to_web:

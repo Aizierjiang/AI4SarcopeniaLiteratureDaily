@@ -147,14 +147,14 @@ last_updated: 2025.12.15
 |**2020-01-20**|**Dietary Restriction of Amino Acids for Cancer Therapy**|Jian-Sheng Kang et.al.|[2001.06979](http://arxiv.org/abs/2001.06979)||
 |**2007-05-31**|**On Biology as an Emergent Science**|H. Pierre Noyes et.al.|[0705.4678](http://arxiv.org/abs/0705.4678)||
 
-[contributors-shield]: https://img.shields.io/github/contributors/aizierjiang/lr4sarcopenia.svg?style=for-the-badge
-[contributors-url]: https://github.com/aizierjiang/lr4sarcopenia/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/aizierjiang/lr4sarcopenia.svg?style=for-the-badge
-[forks-url]: https://github.com/aizierjiang/lr4sarcopenia/network/members
-[stars-shield]: https://img.shields.io/github/stars/aizierjiang/lr4sarcopenia.svg?style=for-the-badge
-[stars-url]: https://github.com/aizierjiang/lr4sarcopenia/stargazers
-[issues-shield]: https://img.shields.io/github/issues/aizierjiang/lr4sarcopenia.svg?style=for-the-badge
-[issues-url]: https://github.com/aizierjiang/lr4sarcopenia/issues
+[contributors-shield]: https://img.shields.io/github/contributors/aizierjiang/AI4SarcopeniaLiteratureDaily.svg?style=for-the-badge
+[contributors-url]: https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/aizierjiang/AI4SarcopeniaLiteratureDaily.svg?style=for-the-badge
+[forks-url]: https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/network/members
+[stars-shield]: https://img.shields.io/github/stars/aizierjiang/AI4SarcopeniaLiteratureDaily.svg?style=for-the-badge
+[stars-url]: https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/stargazers
+[issues-shield]: https://img.shields.io/github/issues/aizierjiang/AI4SarcopeniaLiteratureDaily.svg?style=for-the-badge
+[issues-url]: https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/issues
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {

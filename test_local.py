@@ -16,7 +16,7 @@ def create_test_config():
     config = {
         'base_url': 'https://arxiv.paperswithcode.com/api/v0/papers/',
         'user_name': 'aizierjiang',
-        'repo_name': 'lr4sarcopenia',
+        'repo_name': 'AI4SarcopeniaLiteratureDaily',
         'show_authors': True,
         'show_links': True,
         'show_badge': True,

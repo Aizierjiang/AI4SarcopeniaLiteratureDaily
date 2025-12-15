@@ -134,7 +134,7 @@ This project is provided for research and educational purposes, under MIT licens
 - **Institution**: Institute for Innovation in Health Computing, The George Washington University
 - **Email**: mysoft@111.com
 - **GitHub**: [@aizierjiang](https://github.com/aizierjiang)
-- **Issues**: [Report here](https://github.com/aizierjiang/lr4sarcopenia/issues)
+- **Issues**: [Report here](https://github.com/aizierjiang/AI4SarcopeniaLiteratureDaily/issues)
 
 ---
 
