@@ -2,10 +2,10 @@
 layout: papers
 title: AI4Sarcopenia Literature Daily
 nav_order: 1
-last_updated: 2025.12.27
+last_updated: 2025.12.28
 ---
 
-## Updated on 2025.12.27
+## Updated on 2025.12.28
 > Usage instructions: [here](./README.md)
 
 <div style="margin:0.85rem 0 0.5rem;padding:0.9rem 1rem;background:#fffbea;border:1px solid #f0c36d;border-radius:10px;font-size:1rem;font-weight:700;color:#4a3200;">
