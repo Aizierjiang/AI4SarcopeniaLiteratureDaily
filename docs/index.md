@@ -2,10 +2,10 @@
 layout: papers
 title: AI4Sarcopenia Literature Daily
 nav_order: 1
-last_updated: 2026.01.03
+last_updated: 2026.01.04
 ---
 
-## Updated on 2026.01.03
+## Updated on 2026.01.04
 > Usage instructions: [here](./README.md)
 
 <div style="margin:0.85rem 0 0.5rem;padding:0.9rem 1rem;background:#fffbea;border:1px solid #f0c36d;border-radius:10px;font-size:1rem;font-weight:700;color:#4a3200;">
@@ -133,7 +133,7 @@ last_updated: 2026.01.03
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
 |**2021-10-04**|**Enhancing Voluntary Motion with Modular, Backdrivable, Powered Hip and Knee Orthoses**|Christopher Nesler et.al.|[2110.01562](http://arxiv.org/abs/2110.01562)||
-|**2020-09-01**|**Survival of the densest accounts for the expansion of mitochondrial mutations in ageing**|Ferdinando Insalata et.al.|[2009.00403](http://arxiv.org/abs/2009.00403)||
+|**2020-09-01**|**Survival of the densest accounts for the expansion of mitochondrial mutations in ageing**|Ferdinando Insalata et.al.|[2009.00403](http://arxiv.org/abs/2009.00403)|**[link](https://github.com/ferdinando17/Survival-of-the-Densest)**|
 
 ## Cancer & Cachexia
 
