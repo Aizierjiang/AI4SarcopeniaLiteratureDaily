@@ -133,7 +133,7 @@ last_updated: 2026.01.05
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
 |**2021-10-04**|**Enhancing Voluntary Motion with Modular, Backdrivable, Powered Hip and Knee Orthoses**|Christopher Nesler et.al.|[2110.01562](http://arxiv.org/abs/2110.01562)||
-|**2020-09-01**|**Survival of the densest accounts for the expansion of mitochondrial mutations in ageing**|Ferdinando Insalata et.al.|[2009.00403](http://arxiv.org/abs/2009.00403)|**[link](https://github.com/ferdinando17/Survival-of-the-Densest)**|
+|**2020-09-01**|**Survival of the densest accounts for the expansion of mitochondrial mutations in ageing**|Ferdinando Insalata et.al.|[2009.00403](http://arxiv.org/abs/2009.00403)||
 
 ## Cancer & Cachexia
 
