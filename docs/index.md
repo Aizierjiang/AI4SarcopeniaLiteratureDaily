@@ -2,10 +2,10 @@
 layout: papers
 title: AI4Sarcopenia Literature Daily
 nav_order: 1
-last_updated: 2026.01.06
+last_updated: 2026.01.07
 ---
 
-## Updated on 2026.01.06
+## Updated on 2026.01.07
 > Usage instructions: [here](./README.md)
 
 <div style="margin:0.85rem 0 0.5rem;padding:0.9rem 1rem;background:#fffbea;border:1px solid #f0c36d;border-radius:10px;font-size:1rem;font-weight:700;color:#4a3200;">
@@ -66,7 +66,7 @@ last_updated: 2026.01.06
 |**2025-06-08**|**Predicting Anthropometric Body Composition Variables Using 3D Optical Imaging and Machine Learning**|Gyaneshwar Agrahari et.al.|[2506.14815](http://arxiv.org/abs/2506.14815)||
 |**2025-06-11**|**Balanced quasistatic evolutions of critical points in metric spaces**|Stefano Almi et.al.|[2506.09812](http://arxiv.org/abs/2506.09812)||
 |**2025-04-21**|**ICGM-FRAX: Iterative Cross Graph Matching for Hip Fracture Risk Assessment using Dual-energy X-ray Absorptiometry Images**|Chen Zhao et.al.|[2504.15384](http://arxiv.org/abs/2504.15384)||
-|**2025-10-26**|**Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning**|Jiyuan Shi et.al.|[2504.14305](http://arxiv.org/abs/2504.14305)||
+|**2025-10-26**|**Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning**|Jiyuan Shi et.al.|[2504.14305](http://arxiv.org/abs/2504.14305)|**[link](https://github.com/TeleHuman/ALMI-Open)**|
 |**2025-04-01**|**Mean field first order optimality condition under low regularity of controls**|Stefano Almi et.al.|[2504.00878](http://arxiv.org/abs/2504.00878)||
 |**2025-04-28**|**VerteNet -- A Multi-Context Hybrid CNN Transformer for Accurate Vertebral Landmark Localization in Lateral Spine DXA Images**|Zaid Ilyas et.al.|[2502.02097](http://arxiv.org/abs/2502.02097)||
 |**2024-12-06**|**Osteoporosis Prediction from Hand X-ray Images Using Segmentation-for-Classification and Self-Supervised Learning**|Ung Hwang et.al.|[2412.05345](http://arxiv.org/abs/2412.05345)||
