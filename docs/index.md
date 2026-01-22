@@ -2,10 +2,10 @@
 layout: papers
 title: AI4Sarcopenia Literature Daily
 nav_order: 1
-last_updated: 2026.01.21
+last_updated: 2026.01.22
 ---
 
-## Updated on 2026.01.21
+## Updated on 2026.01.22
 > Usage instructions: [here](./README.md)
 
 <div style="margin:0.85rem 0 0.5rem;padding:0.9rem 1rem;background:#fffbea;border:1px solid #f0c36d;border-radius:10px;font-size:1rem;font-weight:700;color:#4a3200;">
@@ -114,7 +114,7 @@ last_updated: 2026.01.21
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
 |**2025-10-17**|**BiomedXPro: Prompt Optimization for Explainable Diagnosis with Biomedical Vision Language Models**|Kaushitha Silva et.al.|[2510.15866](http://arxiv.org/abs/2510.15866)||
-|**2025-10-04**|**CoPA: Hierarchical Concept Prompting and Aggregating Network for Explainable Diagnosis**|Yiheng Dong et.al.|[2510.03767](http://arxiv.org/abs/2510.03767)||
+|**2025-10-04**|**CoPA: Hierarchical Concept Prompting and Aggregating Network for Explainable Diagnosis**|Yiheng Dong et.al.|[2510.03767](http://arxiv.org/abs/2510.03767)|**[link](https://github.com/yihengd/CoPA)**|
 |**2025-10-18**|**Agentic System with Modal Logic for Autonomous Diagnostics**|Antonin Sulc et.al.|[2509.11943](http://arxiv.org/abs/2509.11943)||
 |**2025-09-10**|**An End-to-End Deep Learning Framework for Arsenicosis Diagnosis Using Mobile-Captured Skin Images**|Asif Newaz et.al.|[2509.08780](http://arxiv.org/abs/2509.08780)||
 |**2025-04-10**|**Over-Relying on Reliance: Towards Realistic Evaluations of AI-Based Clinical Decision Support**|Venkatesh Sivaraman et.al.|[2504.07423](http://arxiv.org/abs/2504.07423)||
