@@ -73,7 +73,7 @@
   "Wearables & mHealth": {},
   "Explainable AI Healthcare": {
     "2510.15866": "|**2025-10-17**|**BiomedXPro: Prompt Optimization for Explainable Diagnosis with Biomedical Vision Language Models**|Kaushitha Silva et.al.|[2510.15866](http://arxiv.org/abs/2510.15866)||\n",
-    "2510.03767": "|**2025-10-04**|**CoPA: Hierarchical Concept Prompting and Aggregating Network for Explainable Diagnosis**|Yiheng Dong et.al.|[2510.03767](http://arxiv.org/abs/2510.03767)||\n",
+    "2510.03767": "|**2025-10-04**|**CoPA: Hierarchical Concept Prompting and Aggregating Network for Explainable Diagnosis**|Yiheng Dong et.al.|[2510.03767](http://arxiv.org/abs/2510.03767)|**[link](https://github.com/yihengd/CoPA)**|\n",
     "2509.11943": "|**2025-10-18**|**Agentic System with Modal Logic for Autonomous Diagnostics**|Antonin Sulc et.al.|[2509.11943](http://arxiv.org/abs/2509.11943)||\n",
     "2509.08780": "|**2025-09-10**|**An End-to-End Deep Learning Framework for Arsenicosis Diagnosis Using Mobile-Captured Skin Images**|Asif Newaz et.al.|[2509.08780](http://arxiv.org/abs/2509.08780)||\n",
     "2504.07423": "|**2025-04-10**|**Over-Relying on Reliance: Towards Realistic Evaluations of AI-Based Clinical Decision Support**|Venkatesh Sivaraman et.al.|[2504.07423](http://arxiv.org/abs/2504.07423)||\n",
@@ -90,7 +90,7 @@
   },
   "Aging & Muscle Health": {
     "2110.01562": "|**2021-10-04**|**Enhancing Voluntary Motion with Modular, Backdrivable, Powered Hip and Knee Orthoses**|Christopher Nesler et.al.|[2110.01562](http://arxiv.org/abs/2110.01562)||\n",
-    "2009.00403": "|**2020-09-01**|**Survival of the densest accounts for the expansion of mitochondrial mutations in ageing**|Ferdinando Insalata et.al.|[2009.00403](http://arxiv.org/abs/2009.00403)|**[link](https://github.com/ferdinando17/Survival-of-the-Densest)**|\n"
+    "2009.00403": "|**2020-09-01**|**Survival of the densest accounts for the expansion of mitochondrial mutations in ageing**|Ferdinando Insalata et.al.|[2009.00403](http://arxiv.org/abs/2009.00403)||\n"
   },
   "Cancer & Cachexia": {
     "2506.11996": "|**2025-06-20**|**Improving Surgical Risk Prediction Through Integrating Automated Body Composition Analysis: a Retrospective Trial on Colectomy Surgery**|Hanxue Gu et.al.|[2506.11996](http://arxiv.org/abs/2506.11996)||\n",
