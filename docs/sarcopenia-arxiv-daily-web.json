@@ -65,15 +65,15 @@
     "2401.02383": "|**2024-01-29**|**Survey of 3D Human Body Pose and Shape Estimation Methods for Contemporary Dance Applications**|Darshan Venkatrayappa et.al.|[2401.02383](http://arxiv.org/abs/2401.02383)||\n",
     "2312.03033": "|**2023-12-11**|**LiDAR-based Person Re-identification**|Wenxuan Guo et.al.|[2312.03033](http://arxiv.org/abs/2312.03033)||\n",
     "2310.18206": "|**2023-10-27**|**FLSH -- Friendly Library for the Simulation of Humans**|Pablo Ramón et.al.|[2310.18206](http://arxiv.org/abs/2310.18206)||\n",
-    "2308.00799": "|**2023-08-01**|**Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction**|Yufei Zhang et.al.|[2308.00799](http://arxiv.org/abs/2308.00799)||\n",
+    "2308.00799": "|**2023-08-01**|**Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction**|Yufei Zhang et.al.|[2308.00799](http://arxiv.org/abs/2308.00799)|**[link](https://github.com/zhangy76/KNOWN)**|\n",
     "2304.07389": "|**2023-04-14**|**Shape of You: Precise 3D shape estimations for diverse body types**|Rohan Sarkar et.al.|[2304.07389](http://arxiv.org/abs/2304.07389)||\n",
-    "2212.02469": "|**2023-09-27**|**One-shot Implicit Animatable Avatars with Model-based Priors**|Yangyi Huang et.al.|[2212.02469](http://arxiv.org/abs/2212.02469)||\n"
+    "2212.02469": "|**2023-09-27**|**One-shot Implicit Animatable Avatars with Model-based Priors**|Yangyi Huang et.al.|[2212.02469](http://arxiv.org/abs/2212.02469)|**[link](https://github.com/huangyangyi/ELICIT)**|\n"
   },
   "ML Risk Prediction": {},
   "Wearables & mHealth": {},
   "Explainable AI Healthcare": {
     "2510.15866": "|**2025-10-17**|**BiomedXPro: Prompt Optimization for Explainable Diagnosis with Biomedical Vision Language Models**|Kaushitha Silva et.al.|[2510.15866](http://arxiv.org/abs/2510.15866)||\n",
-    "2510.03767": "|**2025-10-04**|**CoPA: Hierarchical Concept Prompting and Aggregating Network for Explainable Diagnosis**|Yiheng Dong et.al.|[2510.03767](http://arxiv.org/abs/2510.03767)||\n",
+    "2510.03767": "|**2025-10-04**|**CoPA: Hierarchical Concept Prompting and Aggregating Network for Explainable Diagnosis**|Yiheng Dong et.al.|[2510.03767](http://arxiv.org/abs/2510.03767)|**[link](https://github.com/yihengd/CoPA)**|\n",
     "2509.11943": "|**2025-10-18**|**Agentic System with Modal Logic for Autonomous Diagnostics**|Antonin Sulc et.al.|[2509.11943](http://arxiv.org/abs/2509.11943)||\n",
     "2509.08780": "|**2025-09-10**|**An End-to-End Deep Learning Framework for Arsenicosis Diagnosis Using Mobile-Captured Skin Images**|Asif Newaz et.al.|[2509.08780](http://arxiv.org/abs/2509.08780)||\n",
     "2504.07423": "|**2025-04-10**|**Over-Relying on Reliance: Towards Realistic Evaluations of AI-Based Clinical Decision Support**|Venkatesh Sivaraman et.al.|[2504.07423](http://arxiv.org/abs/2504.07423)||\n",
