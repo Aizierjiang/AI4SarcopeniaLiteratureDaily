@@ -2,10 +2,10 @@
 layout: papers
 title: AI4Sarcopenia Literature Daily
 nav_order: 1
-last_updated: 2026.02.19
+last_updated: 2026.02.20
 ---
 
-## Updated on 2026.02.19
+## Updated on 2026.02.20
 > Usage instructions: [here](./README.md)
 
 <div style="margin:0.85rem 0 0.5rem;padding:0.9rem 1rem;background:#fffbea;border:1px solid #f0c36d;border-radius:10px;font-size:1rem;font-weight:700;color:#4a3200;">
@@ -56,6 +56,7 @@ last_updated: 2026.02.19
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-19**|**Asymptotic analysis for heterogeneous elastic energies with material voids**|Stefano Almi et.al.|[2602.17374](http://arxiv.org/abs/2602.17374)||
 |**2026-01-19**|**Early Prediction of Type 2 Diabetes Using Multimodal data and Tabular Transformers**|Sulaiman Khan et.al.|[2601.12981](http://arxiv.org/abs/2601.12981)||
 |**2025-10-27**|**Predicting Wrist Osteoporosis from excised human finger bones using spatially offset Raman spectroscopy, A Cadaveric Study**|Mohammad Hosseini et.al.|[2510.23876](http://arxiv.org/abs/2510.23876)||
 |**2025-10-06**|**Riesz fractional gradient functionals defined on partitions: nonlocal-to-local variational limits**|Stefano Almi et.al.|[2510.04881](http://arxiv.org/abs/2510.04881)||
