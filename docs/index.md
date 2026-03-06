@@ -2,10 +2,10 @@
 layout: papers
 title: AI4Sarcopenia Literature Daily
 nav_order: 1
-last_updated: 2026.03.05
+last_updated: 2026.03.06
 ---
 
-## Updated on 2026.03.05
+## Updated on 2026.03.06
 > Usage instructions: [here](./README.md)
 
 <div style="margin:0.85rem 0 0.5rem;padding:0.9rem 1rem;background:#fffbea;border:1px solid #f0c36d;border-radius:10px;font-size:1rem;font-weight:700;color:#4a3200;">
@@ -28,7 +28,7 @@ last_updated: 2026.03.05
 |**2025-02-13**|**Unsupervised Anomaly Detection on Implicit Shape representations for Sarcopenia Detection**|Louise Piecuch et.al.|[2502.09088](http://arxiv.org/abs/2502.09088)||
 |**2023-12-10**|**Three-dimensional numerical schemes for the segmentation of the psoas muscle in X-ray computed tomography images**|Giulio Paolucci et.al.|[2312.05887](http://arxiv.org/abs/2312.05887)||
 |**2021-08-13**|**Deep Reinforcement Learning for L3 Slice Localization in Sarcopenia Assessment**|Othmane Laousy et.al.|[2107.12800](http://arxiv.org/abs/2107.12800)||
-|**2020-06-10**|**Fully-automated deep learning slice-based muscle estimation from CT images for sarcopenia assessment**|Fahdi Kanavati et.al.|[2006.06432](http://arxiv.org/abs/2006.06432)||
+|**2020-06-10**|**Fully-automated deep learning slice-based muscle estimation from CT images for sarcopenia assessment**|Fahdi Kanavati et.al.|[2006.06432](http://arxiv.org/abs/2006.06432)|**[link](https://github.com/fk128/sarcopenia-ai)**|
 
 ## CT Body Composition
 
