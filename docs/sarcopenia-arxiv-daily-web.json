@@ -6,7 +6,7 @@
     "2502.09088": "|**2025-02-13**|**Unsupervised Anomaly Detection on Implicit Shape representations for Sarcopenia Detection**|Louise Piecuch et.al.|[2502.09088](http://arxiv.org/abs/2502.09088)||\n",
     "2312.05887": "|**2023-12-10**|**Three-dimensional numerical schemes for the segmentation of the psoas muscle in X-ray computed tomography images**|Giulio Paolucci et.al.|[2312.05887](http://arxiv.org/abs/2312.05887)||\n",
     "2107.12800": "|**2021-08-13**|**Deep Reinforcement Learning for L3 Slice Localization in Sarcopenia Assessment**|Othmane Laousy et.al.|[2107.12800](http://arxiv.org/abs/2107.12800)||\n",
-    "2006.06432": "|**2020-06-10**|**Fully-automated deep learning slice-based muscle estimation from CT images for sarcopenia assessment**|Fahdi Kanavati et.al.|[2006.06432](http://arxiv.org/abs/2006.06432)|**[link](https://github.com/fk128/sarcopenia-ai)**|\n"
+    "2006.06432": "|**2020-06-10**|**Fully-automated deep learning slice-based muscle estimation from CT images for sarcopenia assessment**|Fahdi Kanavati et.al.|[2006.06432](http://arxiv.org/abs/2006.06432)||\n"
   },
   "CT Body Composition": {
     "2503.16556": "|**2025-03-19**|**Reliable Radiologic Skeletal Muscle Area Assessment -- A Biomarker for Cancer Cachexia Diagnosis**|Sabeen Ahmed et.al.|[2503.16556](http://arxiv.org/abs/2503.16556)||\n",
@@ -58,7 +58,7 @@
     "2510.10406": "|**2025-10-12**|**Mesh-Gait: A Unified Framework for Gait Recognition Through Multi-Modal Representation Learning from 2D Silhouettes**|Zhao-Yang Wang et.al.|[2510.10406](http://arxiv.org/abs/2510.10406)||\n",
     "2505.16228": "|**2025-05-22**|**A Shape-Aware Total Body Photography System for In-focus Surface Coverage Optimization**|Wei-Lun Huang et.al.|[2505.16228](http://arxiv.org/abs/2505.16228)||\n",
     "2504.05627": "|**2025-12-02**|**Maternal and Fetal Health Status Assessment by Using Machine Learning on Optical 3D Body Scans**|Ruting Cheng et.al.|[2504.05627](http://arxiv.org/abs/2504.05627)||\n",
-    "2501.06014": "|**2025-01-10**|**Pose-independent 3D Anthropometry from Sparse Data**|David Bojanić et.al.|[2501.06014](http://arxiv.org/abs/2501.06014)||\n",
+    "2501.06014": "|**2025-01-10**|**Pose-independent 3D Anthropometry from Sparse Data**|David Bojanić et.al.|[2501.06014](http://arxiv.org/abs/2501.06014)|**[link](https://github.com/DavidBoja/pose-independent-anthropometry)**|\n",
     "2411.08128": "|**2024-11-12**|**CameraHMR: Aligning People with Perspective**|Priyanka Patel et.al.|[2411.08128](http://arxiv.org/abs/2411.08128)||\n",
     "2404.09301": "|**2024-04-16**|**A Simple Strategy for Body Estimation from Partial-View Images**|Yafei Mao et.al.|[2404.09301](http://arxiv.org/abs/2404.09301)||\n",
     "2403.08344": "|**2024-03-13**|**STMPL: Human Soft-Tissue Simulation**|Anton Agafonov et.al.|[2403.08344](http://arxiv.org/abs/2403.08344)||\n",
