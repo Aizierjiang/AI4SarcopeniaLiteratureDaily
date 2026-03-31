@@ -2,10 +2,10 @@
 layout: papers
 title: AI4Sarcopenia Literature Daily
 nav_order: 1
-last_updated: 2026.03.30
+last_updated: 2026.03.31
 ---
 
-## Updated on 2026.03.30
+## Updated on 2026.03.31
 > Usage instructions: [here](./README.md)
 
 <div style="margin:0.85rem 0 0.5rem;padding:0.9rem 1rem;background:#fffbea;border:1px solid #f0c36d;border-radius:10px;font-size:1rem;font-weight:700;color:#4a3200;">
@@ -56,6 +56,8 @@ last_updated: 2026.03.30
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-30**|**Approximation of symmetric total variation on point clouds**|Stefano Almi et.al.|[2603.28172](http://arxiv.org/abs/2603.28172)||
+|**2026-03-27**|**Beyond BMI: Smartphone Body Composition Phenotyping for Cardiometabolic Risk Assessment**|Dr Menglian Zhou et.al.|[2603.27017](http://arxiv.org/abs/2603.27017)||
 |**2026-03-19**|**Machine learning reconstruction of digit bone Raman spectra enables noninvasive transcutaneous detection of systemic osteoporosis**|Mohammad Hosseini et.al.|[2603.18983](http://arxiv.org/abs/2603.18983)||
 |**2026-03-11**|**Transformer-Based Multi-Region Segmentation and Radiomic Analysis of HR-pQCT Imaging for Osteoporosis Classification**|Mohseu Rashid Subah et.al.|[2603.09137](http://arxiv.org/abs/2603.09137)||
 |**2026-02-19**|**Asymptotic analysis for heterogeneous elastic energies with material voids**|Stefano Almi et.al.|[2602.17374](http://arxiv.org/abs/2602.17374)||
