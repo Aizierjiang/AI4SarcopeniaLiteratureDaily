@@ -2,10 +2,10 @@
 layout: papers
 title: AI4Sarcopenia Literature Daily
 nav_order: 1
-last_updated: 2026.04.22
+last_updated: 2026.04.23
 ---
 
-## Updated on 2026.04.22
+## Updated on 2026.04.23
 > Usage instructions: [here](./README.md)
 
 <div style="margin:0.85rem 0 0.5rem;padding:0.9rem 1rem;background:#fffbea;border:1px solid #f0c36d;border-radius:10px;font-size:1rem;font-weight:700;color:#4a3200;">
@@ -56,6 +56,7 @@ last_updated: 2026.04.22
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-22**|**Opportunistic Bone-Loss Screening from Routine Knee Radiographs Using a Multi-Task Deep Learning Framework with Sensitivity-Constrained Threshold Optimization**|Zhaochen Li et.al.|[2604.20268](http://arxiv.org/abs/2604.20268)||
 |**2026-04-19**|**3D-DXA Cortical and Trabecular Parameters: Agreement Between Hologic Densitometers in Clinical Practice**|Marta I. Bracco et.al.|[2604.17361](http://arxiv.org/abs/2604.17361)||
 |**2026-03-30**|**Approximation of symmetric total variation on point clouds**|Stefano Almi et.al.|[2603.28172](http://arxiv.org/abs/2603.28172)||
 |**2026-04-06**|**Beyond BMI: Smartphone Body Composition Phenotyping for Cardiometabolic Risk Assessment**|Menglian Zhou et.al.|[2603.27017](http://arxiv.org/abs/2603.27017)||
@@ -109,18 +110,18 @@ last_updated: 2026.04.22
 |**2024-03-13**|**STMPL: Human Soft-Tissue Simulation**|Anton Agafonov et.al.|[2403.08344](http://arxiv.org/abs/2403.08344)||
 |**2024-01-10**|**Machine Learning Applications in Spine Biomechanics**|Farshid Ghezelbash et.al.|[2401.06174](http://arxiv.org/abs/2401.06174)||
 |**2024-01-29**|**Survey of 3D Human Body Pose and Shape Estimation Methods for Contemporary Dance Applications**|Darshan Venkatrayappa et.al.|[2401.02383](http://arxiv.org/abs/2401.02383)||
-|**2023-12-11**|**LiDAR-based Person Re-identification**|Wenxuan Guo et.al.|[2312.03033](http://arxiv.org/abs/2312.03033)||
+|**2023-12-11**|**LiDAR-based Person Re-identification**|Wenxuan Guo et.al.|[2312.03033](http://arxiv.org/abs/2312.03033)|**[link](https://github.com/GWxuan/ReID3D)**|
 |**2023-10-27**|**FLSH -- Friendly Library for the Simulation of Humans**|Pablo Ramón et.al.|[2310.18206](http://arxiv.org/abs/2310.18206)||
-|**2023-08-01**|**Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction**|Yufei Zhang et.al.|[2308.00799](http://arxiv.org/abs/2308.00799)||
+|**2023-08-01**|**Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction**|Yufei Zhang et.al.|[2308.00799](http://arxiv.org/abs/2308.00799)|**[link](https://github.com/zhangy76/KNOWN)**|
 |**2023-04-14**|**Shape of You: Precise 3D shape estimations for diverse body types**|Rohan Sarkar et.al.|[2304.07389](http://arxiv.org/abs/2304.07389)||
-|**2023-09-27**|**One-shot Implicit Animatable Avatars with Model-based Priors**|Yangyi Huang et.al.|[2212.02469](http://arxiv.org/abs/2212.02469)||
+|**2023-09-27**|**One-shot Implicit Animatable Avatars with Model-based Priors**|Yangyi Huang et.al.|[2212.02469](http://arxiv.org/abs/2212.02469)|**[link](https://github.com/huangyangyi/ELICIT)**|
 
 ## Explainable AI Healthcare
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
 |**2025-10-17**|**BiomedXPro: Prompt Optimization for Explainable Diagnosis with Biomedical Vision Language Models**|Kaushitha Silva et.al.|[2510.15866](http://arxiv.org/abs/2510.15866)||
-|**2025-10-04**|**CoPA: Hierarchical Concept Prompting and Aggregating Network for Explainable Diagnosis**|Yiheng Dong et.al.|[2510.03767](http://arxiv.org/abs/2510.03767)|**[link](https://github.com/yihengd/CoPA)**|
+|**2025-10-04**|**CoPA: Hierarchical Concept Prompting and Aggregating Network for Explainable Diagnosis**|Yiheng Dong et.al.|[2510.03767](http://arxiv.org/abs/2510.03767)||
 |**2025-10-18**|**Agentic System with Modal Logic for Autonomous Diagnostics**|Antonin Sulc et.al.|[2509.11943](http://arxiv.org/abs/2509.11943)||
 |**2025-09-10**|**An End-to-End Deep Learning Framework for Arsenicosis Diagnosis Using Mobile-Captured Skin Images**|Asif Newaz et.al.|[2509.08780](http://arxiv.org/abs/2509.08780)||
 |**2025-04-10**|**Over-Relying on Reliance: Towards Realistic Evaluations of AI-Based Clinical Decision Support**|Venkatesh Sivaraman et.al.|[2504.07423](http://arxiv.org/abs/2504.07423)||
