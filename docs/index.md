@@ -2,10 +2,10 @@
 layout: papers
 title: AI4Sarcopenia Literature Daily
 nav_order: 1
-last_updated: 2026.05.11
+last_updated: 2026.05.12
 ---
 
-## Updated on 2026.05.11
+## Updated on 2026.05.12
 > Usage instructions: [here](./README.md)
 
 <div style="margin:0.85rem 0 0.5rem;padding:0.9rem 1rem;background:#fffbea;border:1px solid #f0c36d;border-radius:10px;font-size:1rem;font-weight:700;color:#4a3200;">
@@ -56,6 +56,7 @@ last_updated: 2026.05.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-08**|**UWB-Fat: Non-Intrusive Body Fat Measurement Using Commodity Ultra-Wideband Radar**|Haotang Li et.al.|[2605.08403](http://arxiv.org/abs/2605.08403)||
 |**2026-04-22**|**Opportunistic Bone-Loss Screening from Routine Knee Radiographs Using a Multi-Task Deep Learning Framework with Sensitivity-Constrained Threshold Optimization**|Zhaochen Li et.al.|[2604.20268](http://arxiv.org/abs/2604.20268)||
 |**2026-04-19**|**3D-DXA Cortical and Trabecular Parameters: Agreement Between Hologic Densitometers in Clinical Practice**|Marta I. Bracco et.al.|[2604.17361](http://arxiv.org/abs/2604.17361)||
 |**2026-03-30**|**Approximation of symmetric total variation on point clouds**|Stefano Almi et.al.|[2603.28172](http://arxiv.org/abs/2603.28172)||
